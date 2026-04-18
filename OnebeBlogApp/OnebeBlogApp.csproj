@@ -68,17 +68,33 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="YoneticiPanel\css\AnaStil.css" />
     <Content Include="YoneticiPanel\css\GirisStil.css" />
+    <Content Include="YoneticiPanel\Default.aspx" />
     <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YoneticiPanel\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YoneticiPanel\YoneticiGiris.aspx.cs">
       <DependentUpon>YoneticiGiris.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="YoneticiPanel\YoneticiGiris.aspx.designer.cs">
       <DependentUpon>YoneticiGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiMasterPage.Master.cs">
+      <DependentUpon>YoneticiMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiMasterPage.Master.designer.cs">
+      <DependentUpon>YoneticiMasterPage.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -89,8 +105,14 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="YoneticiPanel\YoneticiMasterPage.Master" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\VeriErisimKatmani\VeriErisimKatmani.csproj">
+      <Project>{98f71bef-e2b4-47d2-a287-e988af3aa128}</Project>
+      <Name>VeriErisimKatmani</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

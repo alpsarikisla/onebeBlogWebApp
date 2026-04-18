@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="YoneticiMasterPage.master.cs" Inherits="OnebeBlogApp.YoneticiPanel.YoneticiMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>One Be Blog Yönetici Paneli</title>
+    <link href="css\AnaStil.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="anaTasiyici">
+            <div class="solPanel">
+                <div class="sayfaBaslik">
+                    <h3>One-Be Blog Yönetici</h3>
+                </div>
+                <div class="menuTasiyici">
+                    <label>Menü</label>
+                    <a href="Default.aspx">Anasayfa</a>
+                    <label>Kategori İşlemleri</label>
+                    <a href="Default.aspx">Anasayfa</a>
+                    <a href="Default.aspx">Anasayfa</a>
+                    <label>Makale İşlemleri</label>
+                    <a href="Default.aspx">Anasayfa</a>
+                    <a href="Default.aspx">Anasayfa</a>
+                    <label>Kullanıcı İşlemleri</label>
+                    <a href="Default.aspx">Anasayfa</a>
+                </div>
+            </div>
+            <div class="icerikPanel">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

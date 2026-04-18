@@ -116,3 +116,5 @@ C:\Users\Alp\Documents\GitHub\onebeBlogWebApp\OnebeBlogApp\obj\Debug\OnebeBlogAp
 C:\Users\Alp\Documents\GitHub\onebeBlogWebApp\OnebeBlogApp\obj\Debug\OnebeBlo.A1953196.Up2Date
 C:\Users\Alp\Documents\GitHub\onebeBlogWebApp\OnebeBlogApp\obj\Debug\OnebeBlogApp.dll
 C:\Users\Alp\Documents\GitHub\onebeBlogWebApp\OnebeBlogApp\obj\Debug\OnebeBlogApp.pdb
+C:\Users\Alp\Documents\GitHub\onebeBlogWebApp\OnebeBlogApp\bin\VeriErisimKatmani.dll
+C:\Users\Alp\Documents\GitHub\onebeBlogWebApp\OnebeBlogApp\bin\VeriErisimKatmani.pdb

@@ -1,0 +1,46 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.anaTasiyici {
+    height: 100vh;
+    display: flex;
+}
+
+.solPanel {
+    width: 200px;
+    background-color: #024959;
+}
+
+.sayfaBaslik {
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 15px;
+    background-color: #012E40
+}
+.menuTasiyici{}
+.menuTasiyici a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    padding:7px 30px; 
+}
+    .menuTasiyici a:hover {
+        background-color: #026773;
+        cursor: pointer;
+    }
+    .menuTasiyici label {
+        color: white;
+        display: block;
+        padding: 7px 10px;
+        background-color: #026773;
+    }
+    .icerikPanel {
+        flex-grow: 1; /*kalan tüm boşluğu doldur*/
+    }
