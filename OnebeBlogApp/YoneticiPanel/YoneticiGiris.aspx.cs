@@ -66,6 +66,10 @@ namespace OnebeBlogApp.YoneticiPanel
                 if (yon != null) {
                     if (yon.AktifMi)
                     {
+                        Session["yonetici"] = yon;
+                        //Session Browser'ın RAM'inde veri tutmak için kullanılan otururm yönetim sistemi aracıdır.
+                        //Yonetici sınıfından yon nesnesini komple Session içerisine attık.
+                        //Farklı yaklaşım olarak sadece mail adresini veya ID'yi de atabilirdik
                         Response.Redirect("Default.aspx");
                     }
                     else

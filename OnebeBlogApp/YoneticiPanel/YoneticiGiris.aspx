@@ -19,7 +19,7 @@
                     <asp:Label ID="lbl_mesaj" runat="server" Text="Geçici Mesaj"></asp:Label>
                 </asp:Panel>
                 <div class="satir">
-                    <asp:TextBox ID="tb_mail" runat="server" TextMode="Email" CssClass="metinKutu" placeholder="Mail Adresiniz"></asp:TextBox>
+                    <asp:TextBox ID="tb_mail" runat="server" TextMode="Email" CssClass="metinKutu" placeholder="Mail Adresiniz" Text="m.suayipoglu@hotmail.com"></asp:TextBox>
                 </div>
                 <div class="satir">
                     <asp:TextBox ID="tb_sifre" runat="server" TextMode="Password" CssClass="metinKutu" placeholder="Şifreniz"></asp:TextBox>

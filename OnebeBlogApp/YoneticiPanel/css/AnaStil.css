@@ -42,5 +42,98 @@ body {
         background-color: #026773;
     }
     .icerikPanel {
-        flex-grow: 1; /*kalan tüm boşluğu doldur*/
+        flex-grow: 1; 
+        /*kalan tüm boşluğu doldur*/
+
+    }
+.ustPanel {
+    height: 40px;
+    padding-top: 10px;
+    background-color: #efefef;
+    border-bottom: 1px solid #012E40;
+}
+.kullaniciBilgi {
+    text-align: right;
+    padding-right: 20px;
+    color: #012E40;
+}
+    .kullaniciBilgi a {
+        text-decoration: none;
+        color: #3CA6A6;
+    }
+        .kullaniciBilgi a:hover {
+            color: #026773;
+        }
+.formTasiyici {
+    border: 1px solid silver;
+    margin: 15px;
+}
+.formBaslik {
+   background-color:#ededed;
+    padding-left: 15px;
+    color: #024959;
+    padding: 20px;
+    border-bottom: 1px solid #3CA6A6;
+}
+.formIcerik
+{
+    padding:20px;
+}
+.satir {
+    margin-bottom: 20px;
+}
+.metinKutu {
+    width: 380px;
+    height: 46px;
+    border: none;
+    padding-left: 15px;
+    background-color: #F7F7F7;
+    border: 1px solid #3CA6A6;
+    border-radius:5px;
+}
+
+    .metinKutu:focus {
+        outline: 1px solid #3CA6A6;
+    }
+.button {
+    background-color: #3CA6A6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-weight: 900;
+    border: 1px solid #026773;
+    border-radius: 5px;
+}
+
+    .button:hover {
+        background-color: #026773;
+        cursor: pointer;
+    }
+.basarisizMesaj {
+    padding: 15px;
+    background-color: #ffbdbd;
+    color: darkred;
+    border-left: 5px solid darkred;
+    margin-bottom: 15px;
+}
+.basariliMesaj {
+    padding: 15px;
+    background-color: #b2eea8;
+    color: #026773;
+    border-left: 5px solid #026773;
+    margin-bottom: 15px;
+}
+.tablo
+{
+    width:100%;
+}
+.tablo tbody tr td
+{
+    padding:10px;
+    border:1px solid #026773;
+}
+    .tablo tbody tr th {
+        background-color:#ededed;
+        color:#026773;
+        padding: 10px;
     }

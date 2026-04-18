@@ -19,19 +19,37 @@
                 <div class="menuTasiyici">
                     <label>Menü</label>
                     <a href="Default.aspx">Anasayfa</a>
+
                     <label>Kategori İşlemleri</label>
-                    <a href="Default.aspx">Anasayfa</a>
-                    <a href="Default.aspx">Anasayfa</a>
+                    <a href="KategoriListele.aspx">Kategori Listele</a>
+                    <a href="KategoriEkle.aspx">Kategori Ekle</a>
+
                     <label>Makale İşlemleri</label>
-                    <a href="Default.aspx">Anasayfa</a>
-                    <a href="Default.aspx">Anasayfa</a>
+                    <a href="Default.aspx">Makale Listele</a>
+                    <a href="Default.aspx">Makale Ekle</a>
+                    <a href="Default.aspx">Yorumlar</a>
+
                     <label>Kullanıcı İşlemleri</label>
-                    <a href="Default.aspx">Anasayfa</a>
+                    <a href="Default.aspx">Kullanıcı Listele</a>
+                    <a href="Default.aspx">Kullanıcı Ekle</a>
+
+                    <label>Üye İşlemleri</label>
+                    <a href="Default.aspx">Üye Listele</a>
                 </div>
             </div>
             <div class="icerikPanel">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
+                <div class="ustPanel">
+                    <div class="kullaniciBilgi">
+                        Merhaba =
+                        <asp:Label ID="lbl_kullanici" runat="server"></asp:Label>
+                        | 
+                        <asp:LinkButton ID="lbtn_cikis" runat="server" Text="Çıkış Yap" OnClick="lbtn_cikis_Click"></asp:LinkButton>
+                    </div>
+                </div>
+                <div class="sayfaTasiyici">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
             </div>
         </div>
     </form>

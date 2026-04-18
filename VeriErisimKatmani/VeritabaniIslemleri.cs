@@ -9,9 +9,10 @@ namespace VeriErisimKatmani
 {
     public class VeritabaniIslemleri
     {
-        SqlConnection baglanti;SqlCommand komut;
+        SqlConnection baglanti; SqlCommand komut;
 
-        public VeritabaniIslemleri() {
+        public VeritabaniIslemleri()
+        {
             baglanti = new SqlConnection(BaglantiYollari.baglantiYolu);
             komut = baglanti.CreateCommand();
         }
@@ -28,7 +29,7 @@ namespace VeriErisimKatmani
                 komut.Parameters.AddWithValue("@s", sifre);
                 baglanti.Open();
                 int sayi = Convert.ToInt32(komut.ExecuteScalar());
-                if (sayi > 0) 
+                if (sayi > 0)
                 {
                     komut.CommandText = "SELECT Y.ID, Y.YoneticiTurID,YT.Isim, Y.Isim,Y.Soyisim,Y.Mail,Y.Sifre,Y.KayitTarihi,Y.AktifMi,Y.SilindiMi FROM Yonetici AS Y JOIN YoneticiTurleri AS YT ON Y.YoneticiTurID = YT.ID WHERE Mail=@m AND Sifre=@s";
                     komut.Parameters.Clear();
@@ -60,13 +61,63 @@ namespace VeriErisimKatmani
             {
                 return null;
             }
-            finally 
-            { 
-                baglanti.Close(); 
+            finally
+            {
+                baglanti.Close();
             }
         }
 
         #endregion
 
+
+        #region Kategori Metotları
+
+        public bool KategoriEkle(Kategori model)
+        {
+            try
+            {
+                komut.CommandText = "INSERT INTO Kategoriler(Isim,KayitTarihi,Aktifmi,SilindiMi) VALUES(@isim, @kayitTarihi, @aktifmi, @silindiMi)";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@isim", model.Isim);
+                komut.Parameters.AddWithValue("@kayitTarihi", model.KayitTarihi);
+                komut.Parameters.AddWithValue("@aktifmi", model.Aktifmi);
+                komut.Parameters.AddWithValue("@silindiMi", model.SilindiMi);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally { baglanti.Close(); }
+        }
+
+        public List<Kategori> KategoriListele()
+        {
+            try
+            {
+                List<Kategori> kategoriler = new List<Kategori>();
+                komut.CommandText = "SELECT ID, Isim, KayitTarihi, Aktifmi, SilindiMi FROM Kategoriler";
+                komut.Parameters.Clear();
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while(okuyucu.Read())
+                {
+                    Kategori kat = new Kategori();
+                    kat.ID = okuyucu.GetInt32(0);
+                    kat.Isim = okuyucu.GetString(1);
+                    kat.KayitTarihi = okuyucu.GetDateTime(2);
+                    kat.Aktifmi = okuyucu.GetBoolean(3);
+                    kat.SilindiMi = okuyucu.GetBoolean(4);
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch { return null; }
+            finally { baglanti.Close(); }
+        }
+
+        #endregion
     }
 }

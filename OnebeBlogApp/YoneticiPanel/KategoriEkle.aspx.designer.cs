@@ -11,52 +11,61 @@ namespace OnebeBlogApp.YoneticiPanel
 {
 
 
-    public partial class YoneticiMasterPage
+    public partial class KategoriEkle
     {
 
         /// <summary>
-        /// head control.
+        /// pnl_basarili control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Panel pnl_basarili;
 
         /// <summary>
-        /// form1 control.
+        /// pnl_basarisiz control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Panel pnl_basarisiz;
 
         /// <summary>
-        /// lbl_kullanici control.
+        /// lbl_mesaj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_kullanici;
+        protected global::System.Web.UI.WebControls.Label lbl_mesaj;
 
         /// <summary>
-        /// lbtn_cikis control.
+        /// tb_isim control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lbtn_cikis;
+        protected global::System.Web.UI.WebControls.TextBox tb_isim;
 
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// cb_aktif control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.CheckBox cb_aktif;
+
+        /// <summary>
+        /// btn_ekle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_ekle;
     }
 }
