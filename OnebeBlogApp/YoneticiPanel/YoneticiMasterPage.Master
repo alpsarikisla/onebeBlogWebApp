@@ -22,6 +22,7 @@
 
                     <label>Kategori İşlemleri</label>
                     <a href="KategoriListele.aspx">Kategori Listele</a>
+                     <a href="KategoriListeleListView.aspx">Kategori Listele LV</a>
                     <a href="KategoriEkle.aspx">Kategori Ekle</a>
 
                     <label>Makale İşlemleri</label>

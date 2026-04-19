@@ -71,8 +71,10 @@
     <Content Include="YoneticiPanel\css\AnaStil.css" />
     <Content Include="YoneticiPanel\css\GirisStil.css" />
     <Content Include="YoneticiPanel\Default.aspx" />
+    <Content Include="YoneticiPanel\KategoriDuzenle.aspx" />
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />
+    <Content Include="YoneticiPanel\KategoriListeleListView.aspx" />
     <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +85,13 @@
     </Compile>
     <Compile Include="YoneticiPanel\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriDuzenle.aspx.cs">
+      <DependentUpon>KategoriDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriDuzenle.aspx.designer.cs">
+      <DependentUpon>KategoriDuzenle.aspx</DependentUpon>
     </Compile>
     <Compile Include="YoneticiPanel\KategoriEkle.aspx.cs">
       <DependentUpon>KategoriEkle.aspx</DependentUpon>
@@ -97,6 +106,13 @@
     </Compile>
     <Compile Include="YoneticiPanel\KategoriListele.aspx.designer.cs">
       <DependentUpon>KategoriListele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriListeleListView.aspx.cs">
+      <DependentUpon>KategoriListeleListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriListeleListView.aspx.designer.cs">
+      <DependentUpon>KategoriListeleListView.aspx</DependentUpon>
     </Compile>
     <Compile Include="YoneticiPanel\YoneticiGiris.aspx.cs">
       <DependentUpon>YoneticiGiris.aspx</DependentUpon>

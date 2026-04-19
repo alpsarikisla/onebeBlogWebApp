@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\kategorilistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\kategorilistelelistview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\kategorilistelelistview.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\kategorilistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\kategorilistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\kategorilistelelistview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\kategorilistelelistview.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98F71BEF-E2B4-47D2-A287-E988AF3AA128}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\verierisimkatmani\\veritabaniislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F71BEF-E2B4-47D2-A287-E988AF3AA128}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\veritabaniislemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\css\\anastil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\css\\anastil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\kategoriduzenle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\kategoriduzenle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\kategoriduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\kategoriduzenle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\kategoriekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\kategoriekle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,62 +37,102 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 6,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 13,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AnaStil.css",
               "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\css\\AnaStil.css",
               "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\css\\AnaStil.css",
               "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\css\\AnaStil.css",
               "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\css\\AnaStil.css",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-18T14:10:29.939Z",
+              "WhenOpened": "2026-04-19T12:28:46.667Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 27,
-          "SelectedChildIndex": 1,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "KategoriListele.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriListele.aspx.cs",
-              "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\KategoriListele.aspx.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriListele.aspx.cs",
-              "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\KategoriListele.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Title": "KategoriListeleListView.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriListeleListView.aspx.cs",
+              "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\KategoriListeleListView.aspx.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriListeleListView.aspx.cs",
+              "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\KategoriListeleListView.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA8wBkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T14:21:51.281Z",
+              "WhenOpened": "2026-04-19T12:08:32.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KategoriDuzenle.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriDuzenle.aspx.cs",
+              "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\KategoriDuzenle.aspx.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriDuzenle.aspx.cs",
+              "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\KategoriDuzenle.aspx.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T11:34:00.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VeritabaniIslemleri.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\VeriErisimKatmani\\VeritabaniIslemleri.cs",
+              "RelativeDocumentMoniker": "VeriErisimKatmani\\VeritabaniIslemleri.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\VeriErisimKatmani\\VeritabaniIslemleri.cs",
+              "RelativeToolTip": "VeriErisimKatmani\\VeritabaniIslemleri.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAvwL4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T10:44:57.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KategoriListele.aspx",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriListele.aspx",
-              "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\KategoriListele.aspx",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriListele.aspx",
-              "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\KategoriListele.aspx",
+              "Title": "KategoriListeleListView.aspx",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriListeleListView.aspx",
+              "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\KategoriListeleListView.aspx",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriListeleListView.aspx",
+              "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\KategoriListeleListView.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-18T14:12:01.753Z",
+              "WhenOpened": "2026-04-19T10:43:51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KategoriEkle.aspx",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriEkle.aspx",
+              "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\KategoriEkle.aspx",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriEkle.aspx",
+              "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\KategoriEkle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-19T10:41:25.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KategoriDuzenle.aspx",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriDuzenle.aspx",
+              "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\KategoriDuzenle.aspx",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\KategoriDuzenle.aspx",
+              "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\KategoriDuzenle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-19T10:40:30.242Z",
               "EditorCaption": ""
             }
           ]

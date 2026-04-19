@@ -118,6 +118,85 @@ namespace VeriErisimKatmani
             finally { baglanti.Close(); }
         }
 
+        public Kategori KategoriGetir(int id)
+        {
+            try
+            {
+                komut.CommandText = "SELECT ID, Isim, KayitTarihi, Aktifmi, SilindiMi FROM Kategoriler WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                Kategori kat = new Kategori();
+                while(okuyucu.Read())
+                {
+                    kat.ID = okuyucu.GetInt32(0);
+                    kat.Isim =okuyucu.GetString(1);
+                    kat.KayitTarihi = okuyucu.GetDateTime(2);
+                    kat.Aktifmi = okuyucu.GetBoolean(3);
+                    kat.SilindiMi = okuyucu.GetBoolean(4);
+                }
+                return kat;
+            }
+            catch
+            { 
+                return null;
+            }
+            finally
+            {
+                baglanti.Close();
+            }
+        }
+
+        public bool KategoriGuncelle(Kategori kat)
+        {
+            try
+            {
+                komut.CommandText = "UPDATE Kategoriler SET Isim=@i, Aktifmi=@a WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@i", kat.Isim);
+                komut.Parameters.AddWithValue("@a", kat.Aktifmi);
+                komut.Parameters.AddWithValue("@id", kat.ID);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+                return true;
+            }
+            catch{ return false; }
+            finally { baglanti.Close(); }
+        }
+
+        public void KategoriDurumDegistir(int id)
+        {
+            try
+            {
+                komut.CommandText = "SELECT Aktifmi FROM Kategoriler WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                bool durum = Convert.ToBoolean(komut.ExecuteScalar());
+                komut.CommandText = "UPDATE Kategoriler SET Aktifmi=@a WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                komut.Parameters.AddWithValue("@a", !durum);
+                komut.ExecuteNonQuery();
+            }
+           finally { baglanti.Close(); }
+        }
+
+        public void KategoriSil(int id)
+        {
+            try
+            {
+                komut.CommandText = "DELETE FROM Kategoriler WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+            }
+            finally
+            {  baglanti.Close(); }
+        }
+
         #endregion
     }
 }
