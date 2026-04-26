@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MakaleResimleri\yog.jpg" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\css\AnaStil.css" />
     <Content Include="YoneticiPanel\css\GirisStil.css" />
@@ -75,6 +76,123 @@
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />
     <Content Include="YoneticiPanel\KategoriListeleListView.aspx" />
+    <Content Include="YoneticiPanel\MakaleEkle.aspx" />
+    <Content Include="YoneticiPanel\MakaleListele.aspx" />
+    <Content Include="YoneticiPanel\plugins\jquery\jquery-3.4.1.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ar-AR.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ar-AR.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-az-AZ.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-az-AZ.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-bg-BG.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-bg-BG.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-bn-BD.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-bn-BD.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ca-ES.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ca-ES.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-cs-CZ.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-cs-CZ.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-da-DK.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-da-DK.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-de-CH.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-de-CH.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-de-DE.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-de-DE.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-el-GR.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-el-GR.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-en-US.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-en-US.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-es-ES.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-es-ES.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-es-EU.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-es-EU.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-fa-IR.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-fa-IR.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-fi-FI.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-fi-FI.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-fr-FR.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-fr-FR.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-gl-ES.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-gl-ES.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-he-IL.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-he-IL.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-hr-HR.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-hr-HR.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-hu-HU.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-hu-HU.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-id-ID.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-id-ID.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-it-IT.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-it-IT.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ja-JP.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ja-JP.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ko-KR.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ko-KR.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-lt-LT.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-lt-LT.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-lt-LV.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-lt-LV.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-mn-MN.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-mn-MN.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-nb-NO.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-nb-NO.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-nl-NL.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-nl-NL.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-pl-PL.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-pl-PL.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-pt-BR.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-pt-BR.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-pt-PT.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-pt-PT.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ro-RO.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ro-RO.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ru-RU.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ru-RU.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sk-SK.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sk-SK.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sl-SI.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sl-SI.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sr-RS-Latin.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sr-RS-Latin.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sr-RS.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sr-RS.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sv-SE.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sv-SE.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ta-IN.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ta-IN.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-th-TH.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-th-TH.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-tr-TR.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-tr-TR.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-uk-UA.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-uk-UA.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-uz-UZ.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-uz-UZ.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-vi-VN.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-vi-VN.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-zh-CN.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-zh-CN.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-zh-TW.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-zh-TW.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\plugin\databasic\summernote-ext-databasic.css" />
+    <Content Include="YoneticiPanel\plugins\summernote\plugin\databasic\summernote-ext-databasic.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\plugin\hello\summernote-ext-hello.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\plugin\specialchars\summernote-ext-specialchars.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs4.css" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs4.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs4.min.css" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs4.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs5.css" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs5.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs5.min.css" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs5.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-lite.css" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-lite.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-lite.min.css" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-lite.min.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote.css" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote.js" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote.min.css" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote.min.js" />
     <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +232,20 @@
     <Compile Include="YoneticiPanel\KategoriListeleListView.aspx.designer.cs">
       <DependentUpon>KategoriListeleListView.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YoneticiPanel\MakaleEkle.aspx.cs">
+      <DependentUpon>MakaleEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleEkle.aspx.designer.cs">
+      <DependentUpon>MakaleEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.designer.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YoneticiPanel\YoneticiGiris.aspx.cs">
       <DependentUpon>YoneticiGiris.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -138,6 +270,66 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="YoneticiPanel\YoneticiMasterPage.Master" />
+    <Content Include="YoneticiPanel\plugins\summernote\font\summernote.eot" />
+    <Content Include="YoneticiPanel\plugins\summernote\font\summernote.hash" />
+    <Content Include="YoneticiPanel\plugins\summernote\font\summernote.ttf" />
+    <Content Include="YoneticiPanel\plugins\summernote\font\summernote.woff" />
+    <Content Include="YoneticiPanel\plugins\summernote\font\summernote.woff2" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ar-AR.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-az-AZ.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-bg-BG.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-bn-BD.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ca-ES.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-cs-CZ.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-da-DK.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-de-CH.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-de-DE.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-el-GR.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-en-US.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-es-ES.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-es-EU.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-fa-IR.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-fi-FI.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-fr-FR.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-gl-ES.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-he-IL.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-hr-HR.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-hu-HU.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-id-ID.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-it-IT.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ja-JP.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ko-KR.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-lt-LT.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-lt-LV.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-mn-MN.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-nb-NO.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-nl-NL.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-pl-PL.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-pt-BR.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-pt-PT.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ro-RO.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ru-RU.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sk-SK.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sl-SI.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sr-RS-Latin.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sr-RS.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-sv-SE.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-ta-IN.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-th-TH.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-tr-TR.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-uk-UA.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-uz-UZ.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-vi-VN.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-zh-CN.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\lang\summernote-zh-TW.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs4.css.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs4.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs5.css.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-bs5.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-lite.css.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote-lite.js.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote.css.map" />
+    <Content Include="YoneticiPanel\plugins\summernote\summernote.js.map" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VeriErisimKatmani\VeriErisimKatmani.csproj">

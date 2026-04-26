@@ -26,8 +26,8 @@
                     <a href="KategoriEkle.aspx">Kategori Ekle</a>
 
                     <label>Makale İşlemleri</label>
-                    <a href="Default.aspx">Makale Listele</a>
-                    <a href="Default.aspx">Makale Ekle</a>
+                    <a href="MakaleListele.aspx">Makale Listele</a>
+                    <a href="MakaleEkle.aspx">Makale Ekle</a>
                     <a href="Default.aspx">Yorumlar</a>
 
                     <label>Kullanıcı İşlemleri</label>

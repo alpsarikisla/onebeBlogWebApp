@@ -118,6 +118,31 @@ namespace VeriErisimKatmani
             finally { baglanti.Close(); }
         }
 
+        public List<Kategori> AktifKategoriListele()
+        {
+            try
+            {
+                List<Kategori> kategoriler = new List<Kategori>();
+                komut.CommandText = "SELECT ID, Isim, KayitTarihi, Aktifmi, SilindiMi FROM Kategoriler WHERE Aktifmi = 1";
+                komut.Parameters.Clear();
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    Kategori kat = new Kategori();
+                    kat.ID = okuyucu.GetInt32(0);
+                    kat.Isim = okuyucu.GetString(1);
+                    kat.KayitTarihi = okuyucu.GetDateTime(2);
+                    kat.Aktifmi = okuyucu.GetBoolean(3);
+                    kat.SilindiMi = okuyucu.GetBoolean(4);
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch { return null; }
+            finally { baglanti.Close(); }
+        }
+
         public Kategori KategoriGetir(int id)
         {
             try
@@ -195,6 +220,72 @@ namespace VeriErisimKatmani
             }
             finally
             {  baglanti.Close(); }
+        }
+
+        #endregion
+
+        #region Makale İşlemleri
+
+        public bool MakaleEkle(Makale mak)
+        {
+            try 
+            {
+                komut.CommandText = "INSERT INTO Makaleler(KategoriID, YoneticiID, Baslik, Ozet, Icerik, KapakResmi, OkunmaSayisi, BegeniSayisi, YayinTarihi, AktifMi, SilindiMi) VALUES(@kategoriID, @yoneticiID, @baslik, @ozet, @icerik, @kapakResim, @okumaSayisi, @begeniSayisi, @yayinTarihi, @aktifMi, @silindiMi)";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@kategoriID", mak.KategoriID);
+                komut.Parameters.AddWithValue("@yoneticiID", mak.YazarID);
+                komut.Parameters.AddWithValue("@baslik", mak.Baslik);
+                komut.Parameters.AddWithValue("@ozet", mak.Ozet);
+                komut.Parameters.AddWithValue("@icerik", mak.Icerik);
+                komut.Parameters.AddWithValue("@kapakResim", mak.KapakResim);
+                komut.Parameters.AddWithValue("@okumaSayisi", mak.OkumaSayisi);
+                komut.Parameters.AddWithValue("@begeniSayisi", mak.BegeniSayisi);
+                komut.Parameters.AddWithValue("@yayinTarihi", mak.YayinTarihi);
+                komut.Parameters.AddWithValue("@aktifMi", mak.AktifMi);
+                komut.Parameters.AddWithValue("@silindiMi", mak.SilindiMi);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+                return true;
+            }
+            catch(Exception ex) { return false;  }
+            finally { baglanti.Close(); }
+        }
+
+        public List<Makale> MakaleListele()
+        {
+            List<Makale> makaleler = new List<Makale>();
+            try 
+            {
+                komut.CommandText = "SELECT M.ID, M.KategoriID, K.Isim, M.YoneticiID, Y.Isim + ' ' + Y.Soyisim, M.Baslik, M.Ozet, M.Icerik, M.KapakResmi, M.OkunmaSayisi, M.BegeniSayisi, M.YayinTarihi, M.AktifMi, M.SilindiMi FROM Makaleler AS M JOIN Kategoriler AS K ON M.KategoriID = K.ID JOIN Yonetici AS Y ON M.YoneticiID = Y.ID";
+                komut.Parameters.Clear();
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while(okuyucu.Read())
+                {
+                    Makale mak = new Makale();
+                    mak.ID = okuyucu.GetInt32(0);
+                    mak.KategoriID = okuyucu.GetInt32(1);
+                    mak.Kategori = okuyucu.GetString(2);
+                    mak.YazarID = okuyucu.GetInt32(3);
+                    mak.Yazar = okuyucu.GetString(4);
+                    mak.Baslik = okuyucu.GetString(5);
+                    mak.Ozet = okuyucu.GetString(6);
+                    mak.Icerik = okuyucu.GetString(7);
+                    mak.KapakResim = okuyucu.GetString(8);
+                    mak.OkumaSayisi = okuyucu.GetInt32(9);
+                    mak.BegeniSayisi = okuyucu.GetInt32(10);
+                    mak.YayinTarihi = okuyucu.GetDateTime(11);
+                    mak.AktifMi = okuyucu.GetBoolean(12);
+                    mak.SilindiMi = okuyucu.GetBoolean(13);
+                    makaleler.Add(mak);
+                }
+                return makaleler;
+            }
+            catch 
+            {
+                return null;
+            }
+            finally { baglanti.Close(); }
         }
 
         #endregion

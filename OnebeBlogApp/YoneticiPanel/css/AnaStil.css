@@ -185,3 +185,10 @@ body {
     color: white;
     border: 1px solid #026773;
 }
+.bolunmusIcerik
+{
+    display:flex;
+}
+.kolon{
+    margin-right:30px;
+}
