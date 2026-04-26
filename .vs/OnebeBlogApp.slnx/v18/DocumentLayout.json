@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\makalelistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\makalelistele.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\arayuzmaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\arayuzmaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98F71BEF-E2B4-47D2-A287-E988AF3AA128}|VeriErisimKatmani\\VeriErisimKatmani.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\verierisimkatmani\\makale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F71BEF-E2B4-47D2-A287-E988AF3AA128}|VeriErisimKatmani\\VeriErisimKatmani.csproj|solutionrelative:verierisimkatmani\\makale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\arayuzmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\arayuzmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\yoneticipanel\\makalelistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\yoneticipanel\\makalelistele.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\assets\\css\\arayuzstil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\assets\\css\\arayuzstil.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|c:\\users\\alp\\documents\\github\\onebeblogwebapp\\onebeblogapp\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6509018-B397-455A-A16A-9AA4122E1877}|OnebeBlogApp\\OnebeBlogApp.csproj|solutionrelative:onebeblogapp\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +25,27 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 7,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 5,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArayuzStil.css",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\Assets\\css\\ArayuzStil.css",
+              "RelativeDocumentMoniker": "OnebeBlogApp\\Assets\\css\\ArayuzStil.css",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\Assets\\css\\ArayuzStil.css",
+              "RelativeToolTip": "OnebeBlogApp\\Assets\\css\\ArayuzStil.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-26T11:32:36.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +53,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Makale.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\VeriErisimKatmani\\Makale.cs",
-              "RelativeDocumentMoniker": "VeriErisimKatmani\\Makale.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\VeriErisimKatmani\\Makale.cs",
-              "RelativeToolTip": "VeriErisimKatmani\\Makale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:50:43.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MakaleListele.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\MakaleListele.aspx.cs",
-              "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\MakaleListele.aspx.cs",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\MakaleListele.aspx.cs",
-              "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\MakaleListele.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:46:51.145Z",
+              "DocumentIndex": 3,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\Default.aspx",
+              "RelativeDocumentMoniker": "OnebeBlogApp\\Default.aspx",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\Default.aspx",
+              "RelativeToolTip": "OnebeBlogApp\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-26T11:40:44.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MakaleListele.aspx",
-              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\MakaleListele.aspx",
-              "RelativeDocumentMoniker": "OnebeBlogApp\\YoneticiPanel\\MakaleListele.aspx",
-              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\YoneticiPanel\\MakaleListele.aspx",
-              "RelativeToolTip": "OnebeBlogApp\\YoneticiPanel\\MakaleListele.aspx",
+              "Title": "ArayuzMaster.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\ArayuzMaster.Master.cs",
+              "RelativeDocumentMoniker": "OnebeBlogApp\\ArayuzMaster.Master.cs",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\ArayuzMaster.Master.cs",
+              "RelativeToolTip": "OnebeBlogApp\\ArayuzMaster.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T11:39:48.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArayuzMaster.Master",
+              "DocumentMoniker": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\ArayuzMaster.Master",
+              "RelativeDocumentMoniker": "OnebeBlogApp\\ArayuzMaster.Master",
+              "ToolTip": "C:\\Users\\Alp\\Documents\\GitHub\\onebeBlogWebApp\\OnebeBlogApp\\ArayuzMaster.Master",
+              "RelativeToolTip": "OnebeBlogApp\\ArayuzMaster.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-25T11:43:36.627Z",
+              "WhenOpened": "2026-04-26T11:32:48.803Z",
               "EditorCaption": ""
             }
           ]

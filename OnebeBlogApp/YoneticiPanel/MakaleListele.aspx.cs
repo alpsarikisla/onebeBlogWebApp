@@ -13,7 +13,26 @@ namespace OnebeBlogApp.YoneticiPanel
         VeritabaniIslemleri db = new VeritabaniIslemleri();
         protected void Page_Load(object sender, EventArgs e)
         {
-            lv_makaleler.DataSource = db.MakaleListele();
+            gridDoldur();
+        }
+
+        protected void lv_makaleler_ItemCommand(object sender, ListViewCommandEventArgs e)
+        {
+            int id = Convert.ToInt32(e.CommandArgument);
+            if (e.CommandName == "durum")
+            {
+                db.MakaleDurumDegistir(id);
+            }
+            if (e.CommandName =="sil")
+            {
+                db.MakaleSil(id);
+            }
+            gridDoldur();
+        }
+
+        private void gridDoldur()
+        {
+            lv_makaleler.DataSource = db.MakaleListele(false);
             lv_makaleler.DataBind();
         }
     }

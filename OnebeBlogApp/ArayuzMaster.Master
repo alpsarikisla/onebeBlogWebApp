@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ArayuzMaster.master.cs" Inherits="OnebeBlogApp.ArayuzMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Assets/css/ArayuzStil.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="anaTasiyici">
+            <div class="baslikBar">
+                <h2>O-Ne-Bee!!! <small style="font-size: 9pt">Şaşırtan haber. Acayip içerik</small> </h2>
+            </div>
+            <div class="kategoriBar">
+                <asp:Repeater ID="rp_kategoriler" runat="server">
+                    <ItemTemplate>
+                        <a href="#"><%# Eval("Isim") %></a>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
+            <div class="altTasiyici">
+                <div class="makaleTasiyicisi">
+                    <a href="https://www.turhost.com/r/104820/hosting">
+                        <img src="Assets/Images/728x90.gif" />
+                    </a>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="reklamTasiyicisi">
+                    <a href="https://www.turhost.com/r/104820/hosting">
+                        <img src="Assets/Images/160x600.gif" />
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

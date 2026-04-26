@@ -288,6 +288,129 @@ namespace VeriErisimKatmani
             finally { baglanti.Close(); }
         }
 
+        public List<Makale> MakaleListele(bool silinmedurum)
+        {
+            List<Makale> makaleler = new List<Makale>();
+            try
+            {
+                komut.CommandText = "SELECT M.ID, M.KategoriID, K.Isim, M.YoneticiID, Y.Isim + ' ' + Y.Soyisim, M.Baslik, M.Ozet, M.Icerik, M.KapakResmi, M.OkunmaSayisi, M.BegeniSayisi, M.YayinTarihi, M.AktifMi, M.SilindiMi FROM Makaleler AS M JOIN Kategoriler AS K ON M.KategoriID = K.ID JOIN Yonetici AS Y ON M.YoneticiID = Y.ID WHERE M.SilindiMi = @durum";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@durum", silinmedurum);
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    Makale mak = new Makale();
+                    mak.ID = okuyucu.GetInt32(0);
+                    mak.KategoriID = okuyucu.GetInt32(1);
+                    mak.Kategori = okuyucu.GetString(2);
+                    mak.YazarID = okuyucu.GetInt32(3);
+                    mak.Yazar = okuyucu.GetString(4);
+                    mak.Baslik = okuyucu.GetString(5);
+                    mak.Ozet = okuyucu.GetString(6);
+                    mak.Icerik = okuyucu.GetString(7);
+                    mak.KapakResim = okuyucu.GetString(8);
+                    mak.OkumaSayisi = okuyucu.GetInt32(9);
+                    mak.BegeniSayisi = okuyucu.GetInt32(10);
+                    mak.YayinTarihi = okuyucu.GetDateTime(11);
+                    mak.AktifMi = okuyucu.GetBoolean(12);
+                    mak.SilindiMi = okuyucu.GetBoolean(13);
+                    makaleler.Add(mak);
+                }
+                return makaleler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally { baglanti.Close(); }
+        }
+
+        public Makale MakaleGetir(int id)
+        {
+            try
+            {
+                komut.CommandText = "SELECT M.ID, M.KategoriID, K.Isim, M.YoneticiID, Y.Isim + ' ' + Y.Soyisim, M.Baslik, M.Ozet, M.Icerik, M.KapakResmi, M.OkunmaSayisi, M.BegeniSayisi, M.YayinTarihi, M.AktifMi, M.SilindiMi FROM Makaleler AS M JOIN Kategoriler AS K ON M.KategoriID = K.ID JOIN Yonetici AS Y ON M.YoneticiID = Y.ID WHERE M.ID = @id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                SqlDataReader okuyucu = komut.ExecuteReader();
+                Makale mak = new Makale();
+                while (okuyucu.Read())
+                {
+                    mak.ID = okuyucu.GetInt32(0);
+                    mak.KategoriID = okuyucu.GetInt32(1);
+                    mak.Kategori = okuyucu.GetString(2);
+                    mak.YazarID = okuyucu.GetInt32(3);
+                    mak.Yazar = okuyucu.GetString(4);
+                    mak.Baslik = okuyucu.GetString(5);
+                    mak.Ozet = okuyucu.GetString(6);
+                    mak.Icerik = okuyucu.GetString(7);
+                    mak.KapakResim = okuyucu.GetString(8);
+                    mak.OkumaSayisi = okuyucu.GetInt32(9);
+                    mak.BegeniSayisi = okuyucu.GetInt32(10);
+                    mak.YayinTarihi = okuyucu.GetDateTime(11);
+                    mak.AktifMi = okuyucu.GetBoolean(12);
+                    mak.SilindiMi = okuyucu.GetBoolean(13);
+                }
+                return mak;
+            }
+            catch { return null;  }
+            finally { baglanti.Close(); }
+        }
+
+        public bool MakaleGuncelle(Makale mak)
+        {
+            try 
+            {
+                komut.CommandText = "UPDATE Makaleler SET Baslik = @baslik, KategoriID=@kategoriId, Ozet=@ozet, Icerik=@icerik, KapakResmi=@kapakresmi, AktifMi=@aktifmi WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", mak.ID);
+                komut.Parameters.AddWithValue("@baslik", mak.Baslik);
+                komut.Parameters.AddWithValue("@kategoriId", mak.KategoriID);
+                komut.Parameters.AddWithValue("@ozet", mak.Ozet);
+                komut.Parameters.AddWithValue("@icerik", mak.Icerik);
+                komut.Parameters.AddWithValue("@kapakresmi", mak.KapakResim);
+                komut.Parameters.AddWithValue("@aktifmi", mak.AktifMi);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+                return true;
+            }
+            catch { return false; }
+            finally { baglanti.Close(); }
+        }
+
+        public void MakaleDurumDegistir(int id)
+        {
+            try
+            {
+                komut.CommandText = "SELECT Aktifmi FROM Makaleler WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                bool durum = Convert.ToBoolean(komut.ExecuteScalar());
+                komut.CommandText = "UPDATE Makaleler SET Aktifmi=@a WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                komut.Parameters.AddWithValue("@a", !durum);
+                komut.ExecuteNonQuery();
+            }
+            finally { baglanti.Close(); }
+        }
+
+        public void MakaleSil(int id)//SoftDelete
+        {
+            try
+            {
+                komut.CommandText = "UPDATE Makaleler SET SilindiMi=1 WHERE ID=@id";
+                komut.Parameters.Clear();
+                komut.Parameters.AddWithValue("@id", id);
+                baglanti.Open();
+                komut.ExecuteNonQuery();
+            }
+            finally { baglanti.Close(); }
+        }
+
         #endregion
     }
 }

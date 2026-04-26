@@ -8,14 +8,15 @@
             <h3>Makaleler</h3>
         </div>
         <div class="formTabloIcerik">
-            <asp:ListView ID="lv_makaleler" runat="server">
+            <marquee scrollamount="10">Al Sana Kayan Yazı</marquee>
+            <asp:ListView ID="lv_makaleler" runat="server" OnItemCommand="lv_makaleler_ItemCommand">
                 <LayoutTemplate>
                     <table class="tablo" cellpadding="0" cellspacing="0">
                         <tr>
                             <th>MakaleResim</th>
                             <th>Başlık</th>
+                            <th>Kategori</th>
                             <th>Yazar</th>
-
                             <th>Yayın Tarihi</th>
                             <th>Okunma Sayı</th>
                             <th>Görüntüleme Sayı</th>
@@ -28,8 +29,10 @@
                 <ItemTemplate>
                     <tr>
                         <td>
-                            <img src='../MakaleResimleri/<%# Eval("KapakResim") %>' width="80" /></td>
+                            <img src='../MakaleResimleri/<%# Eval("KapakResim") %>' width="80" />
+                        </td>
                         <td><%# Eval("Baslik") %></td>
+                        <td><%# Eval("Kategori") %></td>
                         <td><%# Eval("Yazar") %></td>
                         <td><%# Eval("YayinTarihi") %></td>
                         <td><%# Eval("OkumaSayisi") %></td>

@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\ArayuzStil.css" />
+    <Content Include="Assets\Images\160x600.gif" />
+    <Content Include="Assets\Images\728x90.gif" />
+    <Content Include="Default.aspx" />
     <Content Include="MakaleResimleri\yog.jpg" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\css\AnaStil.css" />
@@ -76,6 +80,7 @@
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />
     <Content Include="YoneticiPanel\KategoriListeleListView.aspx" />
+    <Content Include="YoneticiPanel\MakaleDuzenle.aspx" />
     <Content Include="YoneticiPanel\MakaleEkle.aspx" />
     <Content Include="YoneticiPanel\MakaleListele.aspx" />
     <Content Include="YoneticiPanel\plugins\jquery\jquery-3.4.1.min.js" />
@@ -196,6 +201,20 @@
     <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArayuzMaster.Master.cs">
+      <DependentUpon>ArayuzMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ArayuzMaster.Master.designer.cs">
+      <DependentUpon>ArayuzMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="YoneticiPanel\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -232,6 +251,13 @@
     <Compile Include="YoneticiPanel\KategoriListeleListView.aspx.designer.cs">
       <DependentUpon>KategoriListeleListView.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YoneticiPanel\MakaleDuzenle.aspx.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleDuzenle.aspx.designer.cs">
+      <DependentUpon>MakaleDuzenle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YoneticiPanel\MakaleEkle.aspx.cs">
       <DependentUpon>MakaleEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -262,6 +288,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ArayuzMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -1,0 +1,39 @@
+﻿*,h1,h2,h3,h4,h5,h6
+{margin:0;padding:0}
+
+body {
+    font-family:Poppins;
+}
+.anaTasiyici
+{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.baslikBar
+{
+    padding:20px 0;
+    border-bottom:2px solid silver;
+}
+.kategoriBar {
+    padding: 10px 0;
+    border-bottom: 1px solid silver;
+}
+.kategoriBar a{
+    color:dimgray;
+    text-decoration:none;
+    padding-right:10px;
+}
+.altTasiyici
+{
+    display:flex;
+}
+    .altTasiyici .makaleTasiyicisi
+    {
+        width:1000px;
+    }
+.makale
+{
+    width:900px;
+   /* float:left;*/
+}
