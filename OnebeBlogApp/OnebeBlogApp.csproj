@@ -71,7 +71,9 @@
     <Content Include="Assets\Images\160x600.gif" />
     <Content Include="Assets\Images\728x90.gif" />
     <Content Include="Default.aspx" />
+    <Content Include="MakaleDetay.aspx" />
     <Content Include="MakaleResimleri\yog.jpg" />
+    <Content Include="UyeOl.aspx" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\css\AnaStil.css" />
     <Content Include="YoneticiPanel\css\GirisStil.css" />
@@ -215,7 +217,21 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MakaleDetay.aspx.cs">
+      <DependentUpon>MakaleDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MakaleDetay.aspx.designer.cs">
+      <DependentUpon>MakaleDetay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UyeOl.aspx.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UyeOl.aspx.designer.cs">
+      <DependentUpon>UyeOl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YoneticiPanel\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

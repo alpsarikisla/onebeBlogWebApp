@@ -18,8 +18,8 @@
                             <th>Kategori</th>
                             <th>Yazar</th>
                             <th>Yayın Tarihi</th>
-                            <th>Okunma Sayı</th>
-                            <th>Görüntüleme Sayı</th>
+                            <th>Görüntülenme Sayı</th>
+                            <th>Beğeni Sayı</th>
                             <th>Yayın Durum</th>
                             <th>Seçenekler</th>
                         </tr>

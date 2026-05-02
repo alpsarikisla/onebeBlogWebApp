@@ -3,6 +3,7 @@
 
 body {
     font-family:Poppins;
+    color:#2a2a2a;
 }
 .anaTasiyici
 {
@@ -31,9 +32,125 @@ body {
     .altTasiyici .makaleTasiyicisi
     {
         width:1000px;
+        padding-top:15px;
     }
 .makale
 {
-    width:900px;
-   /* float:left;*/
+    width:440px;
+    float:left;
+    margin-right:25px;
+    border:1px solid silver;
+    border-radius:5px;
+    padding:15px;
+    margin-bottom:15px;
 }
+.baslik {
+    color: #024959;
+}
+.kategoriveyazar {
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    padding: 5px 0;
+    font-size: 8pt;
+    color: #026773;
+}
+.begeniveGoruntuleme {
+    color: #026773;
+    border-bottom: 1px solid silver;
+    font-size: 7pt;
+}
+.ozet {
+    min-height: 50px;
+    margin-top:10px;
+}
+.devamLink {
+    text-decoration: none;
+    display: block;
+    color: #024959;
+}
+.makaledetay
+{
+
+}
+.formTasiyici {
+    background-color: white;
+    width: 400px;
+    min-height: 400px;
+    margin: 20px auto;
+    padding: 35px;
+    border: 1px solid #3CA6A6;
+}
+
+.golgelik {
+    box-shadow: 10px 10px 12px 1px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 10px 10px 12px 1px rgba(0,0,0,0.19);
+    -moz-box-shadow: 10px 10px 12px 1px rgba(0,0,0,0.19);
+}
+
+.baslikTasiyici {
+    text-align: center;
+}
+
+.baslik {
+    color: #3CA6A6;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+.altBaslik {
+    color: dimgray;
+}
+
+.icerik {
+    margin-top: 50px;
+}
+
+.mesajKutu {
+    padding: 15px;
+    background-color: #ffbdbd;
+    color: darkred;
+    border-left: 5px solid darkred;
+    margin-bottom: 15px;
+}
+
+.satir {
+    margin-bottom: 20px;
+}
+
+.metinKutu {
+    width: 380px;
+    height: 46px;
+    border: none;
+    border-left: 5px solid #3CA6A6;
+    padding-left: 15px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #3CA6A6;
+}
+
+    .metinKutu:focus {
+        outline: 1px solid #3CA6A6;
+    }
+
+.sifreUnuttum {
+    text-decoration: none;
+    color: #026773;
+}
+
+.kayitButon {
+    background-color: #3CA6A6;
+    color: white;
+    padding: 15px;
+    width: 400px;
+    font-size: 12pt;
+    font-weight: 900;
+    border: 1px solid #026773;
+    border-radius: 20px;
+
+}
+
+    .kayitButon:hover {
+        background-color: #026773;
+        cursor: pointer;
+    }
+
+
